@@ -1,0 +1,8 @@
+description: >
+  This command runs 'okareo-cli version'
+
+
+steps:
+  - run:
+      name: Checking okareo version
+      command: ./okareo-cli version

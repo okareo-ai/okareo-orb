@@ -1,0 +1,12 @@
+description: >
+  This command download okareo-cli from github repository
+
+
+steps:
+  - run:
+      name: Install dependencies
+      command: <<include(scripts/install_dependencies.sh)>>
+  - run:
+      name: Set up Okareo tools
+      shell: python3
+      command: <<include(scripts/setup_cli.py)>>

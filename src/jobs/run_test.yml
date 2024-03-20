@@ -1,0 +1,10 @@
+description: >
+  Running all the tests under .okareo/validation/*
+
+
+executor: default
+
+steps:
+  - checkout
+  - setup
+  - validate

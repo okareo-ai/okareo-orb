@@ -1,0 +1,8 @@
+description: >
+  This command runs 'okareo-cli validate'
+
+
+steps:
+  - run:
+      name: Running okareo validation test
+      command: ./okareo-cli validate

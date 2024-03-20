@@ -1,31 +1,7 @@
-# Orb Template
-
-
-[![CircleCI Build Status](https://circleci.com/gh/BjTzQHvRFxcKwNBxbvu4Gp/okareo-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/BjTzQHvRFxcKwNBxbvu4Gp/okareo-orb) [![CircleCI Orb Version](https://badges.circleci.com/orbs/okareo/okareo-orb.svg)](https://circleci.com/developer/orbs/orb/okareo/okareo-orb) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/BjTzQHvRFxcKwNBxbvu4Gp/okareo-orb/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
-
-
-
-A project template for Orbs.
-
-This repository is designed to be automatically ingested and modified by the CircleCI CLI's `orb init` command.
-
-_**Edit this area to include a custom title and description.**_
-
----
-
-## Resources
-
-[CircleCI Orb Registry Page](https://circleci.com/developer/orbs/orb/okareo/okareo-orb) - The official registry page of this orb for all versions, executors, commands, and jobs described.
-
-[CircleCI Orb Docs](https://circleci.com/docs/orb-intro/#section=configuration) - Docs for using, creating, and publishing CircleCI Orbs.
-
-### How to Contribute
-
-We welcome [issues](https://github.com/BjTzQHvRFxcKwNBxbvu4Gp/okareo-orb/issues) to and [pull requests](https://github.com/BjTzQHvRFxcKwNBxbvu4Gp/okareo-orb/pulls) against this repository!
+_**Okareo CircleCI Orb**_
 
 ### How to Publish An Update
 1. Merge pull requests with desired changes to the main branch.
-    - For the best experience, squash-and-merge and use [Conventional Commit Messages](https://conventionalcommits.org/).
 2. Find the current version of the orb.
     - You can run `circleci orb info okareo/okareo-orb | grep "Latest"` to see the current version.
 3. Create a [new Release](https://github.com/BjTzQHvRFxcKwNBxbvu4Gp/okareo-orb/releases/new) on GitHub.
