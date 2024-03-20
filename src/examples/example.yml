@@ -1,11 +1,14 @@
 description: >
-  Sample example description.
-# Provide a use-case based example for using this orb.
+  Example to run tests using okareo-orb
+  You must place all your tests under .okareo/validation/
+  See github for an example
+  https://github.com/okareo-ai/okareo-orb/tree/main/.okareo
+
 usage:
   version: 2.1
   orbs:
-    <orb-name>: <namespace>/<orb-name>@1.2.3
+    okareo-orb: okareo/okareo-orb@0.0.1
   workflows:
     use-my-orb:
       jobs:
-        - <orb-name>/<job-name>
+        - okareo-orb/run_test
